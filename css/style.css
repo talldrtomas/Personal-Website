@@ -1,51 +1,104 @@
-body {
-  background-color: #e6ffe6;
+/*
+https://colorhunt.co/palette/167715
+*/
+.container{
+  width: 100%;
 }
+.pro-text{
+  text-decoration: underline;
+  position: relative;
+  width: 40%;
 
-hr {
-  border-color: gray;
-  border-width: 5px;
-  border-style: dotted none none;
-  width: 5%;
 }
-strong{
-  color: grey;
+/***********************Top Container******************/
+.top-container{
+  background-color: #e7bf45;
+}
+.top-text{
+    color: black;
+    position:relative;
+    top: 150px;
+    padding-top: 50px;
+
+}
+.top-text2{
+  text-decoration: underline;
+  position: relative;
+  width: 40%;
+  bottom: 50px;
+}
+.top-image{
+  position: relative;
+  bottom: 50%;
+}
+/***********************Middle Container******************/
+.middle-container{
+  background-color: #4584b1;
+}
+.middle-position{
+  position: relative;
+  left: 80%;
+}
+.middle-image{
+  border-radius: 20px;
+}
+.middle-div{
+  display:inline;
+}
+.middle-text{
+  font-size: 80px;
+}
+.middle-side{
+  font-size: 20px;
+}
+/***********************Bottom Container******************/
+.bottom-container{
+  background-color: #2c786c;
+}
+.bottom-text{
+  color: #782c38;
+}
+.main-image{
+  width: 50%;
+
+}
+.image-corner{
+  border-radius: 10%;
+  height: 10%;
+  position: relative;
+  display: inline-block;
+}
+/***********************General Container******************/
+body{
+  margin: 0;
+  border: 0;
+font-family: Papyrus,fantasy;
+  padding: 0;
+  background-color: #e7bf45;
+
 }
 video{
   border-radius: 20px;
 }
+iframe{
+  border-radius: 20px;
+}
+p{
+  color: black;
+  width: 50%;
 
-table{
-  border-spacing: 50px;
 }
-p {
-  color: gray;
-}
-center{
-  color: gray;
-}
-img{
-  border-radius: 50px;
-}
+li{
+  padding-bottom: 8px;
 
-h2 {
-  color: gray
+
 }
 
-h1 {
-  color: gray
-}
 
-li {
-  color: gray
-}
-/************************ Classes ********************************/
-.iphoneScreen {
-  height: 75%;
-}
+h1{
+  margin: 0;
+  display: inline-block;
+  font-size: 400%;
+  width: 50%;
 
-/************************ ID  ********************************/ /*
-#example{
-  color: blue;
 }
-*/
